@@ -162,13 +162,3 @@ _**Fig 3.** A phishing website mimicking Dropbox._
 This project is licensed under the MIT License.
 
 ```
-
----
-
-If you want to push it further, next upgrades could be:
-- GitHub **badges (stars, forks, tech stack)**
-- A **“Why IntelliShield?” section (very important for impressing recruiters)**
-- Turning it into a **startup-level product README**
-
-Just say 👍 and I’ll upgrade it to **top 1% GitHub level**.
-```
