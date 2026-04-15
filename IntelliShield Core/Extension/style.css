@@ -1,0 +1,110 @@
+body {
+    width: 380px;
+    min-height: 420px;
+    margin: 0;
+    padding: 15px;
+    font-family: "Nunito", sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+h2 {
+    color: #0C5;
+    font-size: 28px;
+    margin: 10px 0 15px 0;
+}
+
+p {
+    text-align: center;
+    color: #aaa;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+}
+
+sup {
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 55px;
+}
+
+.button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0C5;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    
+    margin: 20px auto;
+    padding: 14px 0;
+    width: 80%;
+    height: 55px;
+    
+    background: #0D6;
+    border: 1px solid #0D6;
+    color: #FFF;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    transition: all 0.5s;
+}
+
+.button:hover, .button:active {
+    text-decoration: none;
+    color: #0C5;
+    border-color: #0C5;
+    background: #FFF;
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    transition: padding-right 0.5s;
+}
+
+.button span:after {
+    content: '→';  
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.button:hover span, .button:active span {
+    padding-right: 35px;
+}
+
+.button:hover span:after, .button:active span:after {
+    opacity: 1;
+    right: 0;
+    color: #0C5;
+}
+
+#p1 {
+    font-size: 18px;
+    margin: 15px 0;
+    word-break: break-all;
+    color: #0C5;
+}
+
+#div1 {
+    margin-top: 20px;
+    padding: 20px;
+    min-height: 140px;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Result Colors */
+.safe   { background-color: #0a2a1f; color: #0f5; border-color: #0f5; }
+.warning{ background-color: #2a2a0a; color: #ff0; border-color: #ff0; }
+.danger { background-color: #2a0f0f; color: #f66; border-color: #f66; }
