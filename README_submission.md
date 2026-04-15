@@ -2,7 +2,7 @@
 
 # IntelliShield Core
 
-#### Video Demo: <URL HERE>
+#### Video Demo: <[URL HERE](https://youtu.be/FFAQSNanKgg)>
 
 ## Description
 
